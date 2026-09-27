@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/catonsville/</loc>
+    <lastmod>2026-09-27T18:26:37.042Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/montgomery-county/</loc>
     <lastmod>2026-09-27T18:25:58.725Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -43,11 +48,6 @@
   <url>
     <loc>https://tagtitlefinder.com/</loc>
     <lastmod>2026-09-27T18:21:11.308Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/catonsville/</loc>
-    <lastmod>2026-09-27T18:19:37.224Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
