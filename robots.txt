@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://calldirectorai.github.io/tag-title-finder/sitemap.xml
+Sitemap: https://tagtitlefinder.com/sitemap.xml
