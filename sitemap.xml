@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
+    <lastmod>2026-09-28T19:49:07.105Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://tagtitlefinder.com/maryland/list-your-agency/</loc>
+    <lastmod>2026-09-28T19:49:00.567Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://tagtitlefinder.com/about/</loc>
+    <lastmod>2026-09-28T19:48:37.673Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://tagtitlefinder.com/maryland/tag-and-title-fees/</loc>
+    <lastmod>2026-09-28T19:48:14.925Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/new-to-maryland/</loc>
     <lastmod>2026-09-28T19:44:48.494Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -373,26 +393,6 @@
   <url>
     <loc>https://tagtitlefinder.com/privacy/</loc>
     <lastmod>2026-09-28T14:50:46.474Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/list-your-agency/</loc>
-    <lastmod>2026-09-28T00:44:32.183Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/tag-and-title-fees/</loc>
-    <lastmod>2026-09-28T00:35:44.159Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
-    <lastmod>2026-09-28T00:35:39.499Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/about/</loc>
-    <lastmod>2026-09-28T00:25:41.494Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
