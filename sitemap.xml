@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/montgomery-county/damascus/</loc>
+    <lastmod>2026-09-28T00:30:40.308Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/agency/all-tags-title/</loc>
     <lastmod>2026-09-28T00:30:37.262Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -308,11 +313,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
     <lastmod>2026-09-28T00:24:35.346Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/montgomery-county/damascus/</loc>
-    <lastmod>2026-09-27T18:39:49.265Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
