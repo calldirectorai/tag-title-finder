@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/registration-renewal/</loc>
+    <lastmod>2026-09-28T19:44:39.436Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/duplicate-title/</loc>
     <lastmod>2026-09-28T19:44:30.447Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,11 +28,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/new-to-maryland/</loc>
     <lastmod>2026-09-28T19:42:19.514Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/registration-renewal/</loc>
-    <lastmod>2026-09-28T19:41:44.683Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
