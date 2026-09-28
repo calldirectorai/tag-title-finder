@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/timonium/</loc>
+    <lastmod>2026-09-28T00:34:41.894Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/pikesville/</loc>
     <lastmod>2026-09-28T00:34:37.192Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -288,11 +293,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/agency/aaa-mid-atlantic-towson/</loc>
     <lastmod>2026-09-28T00:30:19.619Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/timonium/</loc>
-    <lastmod>2026-09-28T00:30:14.926Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
