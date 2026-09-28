@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/privacy/</loc>
+    <lastmod>2026-09-28T00:31:27.553Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
+    <lastmod>2026-09-28T00:31:19.869Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/agency/fred-s-tag-and-title-harford-rd/</loc>
     <lastmod>2026-09-28T00:31:19.651Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -318,16 +328,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/montgomery-county/</loc>
     <lastmod>2026-09-28T00:25:19.390Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/privacy/</loc>
-    <lastmod>2026-09-28T00:24:47.073Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
-    <lastmod>2026-09-28T00:24:35.346Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
