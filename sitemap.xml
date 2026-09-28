@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/catonsville/</loc>
+    <lastmod>2026-09-28T00:29:30.449Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/baltimore/</loc>
     <lastmod>2026-09-28T00:29:25.718Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -243,11 +248,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/tag-and-title-fees/</loc>
     <lastmod>2026-09-28T00:25:29.588Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/catonsville/</loc>
-    <lastmod>2026-09-28T00:25:23.709Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
