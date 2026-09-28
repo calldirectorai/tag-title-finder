@@ -1,101 +1,321 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<title>Tag &amp; Title Finder - Find Maryland Tag &amp; Title Agencies Near You</title><meta name="description" content="Compare private MVA-licensed tag and title agencies in Maryland: hours, phone numbers, weekend service and fees.">
-<link rel="canonical" href="https://tagtitlefinder.com/">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Saira+Condensed:wght@600;700&display=swap" rel="stylesheet">
-<style>
-:root{--paper:#F7F8F5;--ink:#172233;--plate:#FFFFFF;--red:#B8182B;--gold:#E0A800;--slate:#48566B;--line:#D5DAE1;--tint:#EAF0F6}
-*{box-sizing:border-box}
-:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 "Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif}
-a{color:inherit;text-decoration-color:var(--red);text-underline-offset:3px}
-a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-header.site{border-bottom:1px solid var(--line)}
-header.site .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
-.logo{font:700 20px/1 "Saira Condensed","Arial Narrow",sans-serif;letter-spacing:.02em;text-decoration:none}
-.logo span{color:var(--red)}
-nav a{white-space:nowrap;margin-left:18px;font-size:15px;text-decoration:none;color:var(--slate)}
-nav a:hover{color:var(--ink)}
-h1,h2,h3{font-family:"Saira Condensed","Arial Narrow",sans-serif;line-height:1.1;margin:0 0 .4em}
-h1{font-size:clamp(34px,6vw,56px);font-weight:700}
-h2{font-size:30px;font-weight:600;margin-top:1.6em}
-h3{font-size:22px;font-weight:600}
-p{max-width:68ch}
-.lede{font-size:20px;color:var(--slate)}
-.hero{padding:48px 0 32px}
-.plate{position:relative;display:inline-flex;flex-direction:column;align-items:center;background:var(--plate);border:3px solid var(--ink);border-radius:14px;padding:14px 40px 10px;box-shadow:inset 0 0 0 5px var(--plate),inset 0 0 0 7px var(--line);margin-bottom:22px}
-.plate .screw{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--paper);border:2px solid var(--ink)}
-.plate .screw.tl{top:9px;left:12px}.plate .screw.tr{top:9px;right:12px}.plate .screw.bl{bottom:9px;left:12px}.plate .screw.br{bottom:9px;right:12px}
-.plate .sticker{position:absolute;bottom:-10px;right:18px;background:var(--gold);color:#1a1400;font:700 11px/1 "Saira Condensed",sans-serif;padding:4px 8px 3px;border-radius:3px;border:1.5px solid var(--ink);transform:rotate(-3deg);letter-spacing:.02em}
-.plate .st{font:italic 600 15px/1 Georgia,serif;color:var(--red)}
-.plate .num{font:700 clamp(40px,8vw,72px)/1 "Saira Condensed","Arial Narrow",sans-serif;letter-spacing:.06em;color:var(--ink)}
-.plate .sub{font-size:11px;color:var(--slate);letter-spacing:.04em}
-.picker{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
-.chip{display:inline-block;padding:8px 14px;border:1.5px solid var(--ink);border-radius:999px;text-decoration:none;font-size:15px;background:var(--plate)}
-.chip:hover{background:var(--ink);color:var(--paper)}
-.chip.alt{border-color:var(--line);color:var(--slate)}
-.list{list-style:none;padding:0;margin:0;border-top:2px solid var(--ink)}
-.row{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
-.row h3{margin:0 0 4px}
-.row h3 a{text-decoration:none}
-.row h3 a:hover{text-decoration:underline}
-.meta{font-size:15px;color:var(--slate)}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.tag{font-size:13px;padding:2px 9px;border-radius:4px;background:var(--tint)}
-.tag.sun{background:var(--gold);color:#1a1400}
-.tag.ver{border:1px solid var(--ink)}
-.call{display:inline-block;margin-top:4px;font-weight:600;text-decoration:none;border-bottom:2px solid var(--red)}
-.note{font-size:14px;color:var(--slate);background:var(--tint);padding:12px 14px;border-left:3px solid var(--gold);max-width:68ch}
-.facts{display:grid;grid-template-columns:160px 1fr;gap:8px 20px;margin:20px 0}
-.facts dt{color:var(--slate);font-size:15px}
-.facts dd{margin:0}
-.grid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin:12px 0}
-.grid2 a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:var(--plate)}
-.grid2 a:hover{border-color:var(--ink)}
-.grid2 small{display:block;color:var(--slate)}
-footer{margin-top:64px;border-top:1px solid var(--line);padding:28px 0 40px;font-size:14px;color:var(--slate)}
-.crumbs{font-size:14px;color:var(--slate);margin-top:22px}
-.crumbs a{color:var(--slate)}
-@media (max-width:720px){.row{grid-template-columns:1fr;gap:6px}.facts{grid-template-columns:1fr}.facts dt{margin-top:8px}nav a{margin:0 14px 0 0}}
 
-.finder{display:flex;gap:10px;margin:22px 0;flex-wrap:wrap}
-.finder input{flex:1;min-width:220px;padding:13px 16px;font-size:16px;font-family:inherit;border:1.5px solid var(--ink);border-radius:8px;background:var(--plate);color:var(--ink)}
-.finder input::placeholder{color:var(--slate)}
-.finder button{padding:13px 22px;font-size:16px;font-weight:600;font-family:inherit;border:1.5px solid var(--ink);border-radius:8px;background:var(--ink);color:var(--paper);cursor:pointer}
-.finder button:hover{opacity:.9}
-.finder-msg{font-size:14px;color:var(--slate);margin:-14px 0 22px}
-</style></head><body>
-<header class="site"><div class="wrap"><a class="logo" href="./">Tag <span>&amp;</span> Title Finder</a>
-<nav><a href="./maryland/montgomery-county/">Montgomery</a><a href="./maryland/baltimore/">Baltimore</a><a href="./maryland/open-weekends/">Open weekends</a><a href="./maryland/tag-and-title-fees/">Fees</a></nav></div></header>
-<main class="wrap"><section class="hero"><div class="plate"><span class="screw tl"></span><span class="screw tr"></span><span class="screw bl"></span><span class="screw br"></span><span class="st">Maryland</span><span class="num">TAGS FAST</span><span class="sub">44 licensed agencies listed</span><span class="sticker">VALID 2027</span></div>
-<h1>Find a tag &amp; title agency near you</h1><p class="meta">Now covering Maryland: Montgomery County and Baltimore. More states coming.</p>
-<p class="lede">Private agencies licensed by the Maryland MVA can register your car, transfer a title or issue temporary tags, often in under 15 minutes. Compare hours and phone numbers here.</p>
-<form class="finder" id="cityFinder"><input list="ttf-cities" id="cityInput" type="text" placeholder="Enter your city (e.g. Towson, Rockville)" autocomplete="off" required><button type="submit">Find agencies</button></form>
-<p class="finder-msg" id="finderMsg">Covers Montgomery County and Baltimore City &amp; County so far.</p>
-<datalist id="ttf-cities"><option value="Damascus"><option value="Gaithersburg"><option value="Germantown"><option value="Olney"><option value="Rockville"><option value="Silver Spring"><option value="Wheaton"><option value="Baltimore"><option value="Catonsville"><option value="Cockeysville"><option value="Dundalk"><option value="Essex"><option value="Halethorpe"><option value="Nottingham"><option value="Owings Mills"><option value="Parkville"><option value="Pikesville"><option value="Timonium"><option value="Towson"><option value="White Marsh"><option value="Woodlawn"></datalist>
-<div class="picker"><a class="chip" href="./maryland/baltimore/baltimore/">Baltimore</a><a class="chip" href="./maryland/montgomery-county/gaithersburg/">Gaithersburg</a><a class="chip" href="./maryland/montgomery-county/wheaton/">Wheaton</a><a class="chip" href="./maryland/baltimore/catonsville/">Catonsville</a><a class="chip" href="./maryland/baltimore/essex/">Essex</a><a class="chip" href="./maryland/montgomery-county/rockville/">Rockville</a><a class="chip" href="./maryland/montgomery-county/silver-spring/">Silver Spring</a><a class="chip" href="./maryland/baltimore/towson/">Towson</a><a class="chip" href="./maryland/baltimore/parkville/">Parkville</a><a class="chip" href="./maryland/montgomery-county/olney/">Olney</a></div></section>
-<h2>Browse by county</h2><div class="grid2"><a href="./maryland/montgomery-county/"><strong>Montgomery County</strong><small>15 agencies</small></a>
-<a href="./maryland/baltimore/"><strong>Baltimore City &amp; County</strong><small>29 agencies</small></a></div>
-<h2>Need one today?</h2><div class="picker"><a class="chip" href="./maryland/open-weekends/">Open this weekend</a><a class="chip" href="./maryland/tag-and-title-fees/">What it costs</a></div>
-<h2>What these agencies do</h2><p>They're private businesses connected directly to the MVA system. They handle new registrations, renewals, title transfers, duplicate titles, temporary tags and plate returns. You pay the same state fees as at the MVA plus the agency's service fee.</p></main>
-<footer><div class="wrap"><p>Tag & Title Finder is an independent directory. We are not the Maryland MVA and are not affiliated with any agency listed. Agencies set their own service fees; always confirm hours and prices by phone.</p>
-<p><a href="./maryland/list-your-agency/">Add or update a listing</a> &nbsp; <a href="./about/">About</a> &nbsp; <a href="./privacy/">Privacy</a></p>
-<p>Listings last checked September 2026.</p></div></footer><script>
+<link rel="canonical" href="https://tagtitlefinder.com/">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Saira+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+<!-- SEO Meta Tags -->
+<title>Tag &amp; Title Finder - Find Maryland Tag &amp; Title Agencies Near You</title>
+<meta name="description" content="Find private tag and title agencies in Maryland by city or ZIP: addresses, phone numbers, weekend hours and what to expect on fees." />
+<meta property="og:title" content="Tag &amp; Title Finder - Find Maryland Tag &amp; Title Agencies Near You" />
+<meta property="og:description" content="Find private tag and title agencies in Maryland by city or ZIP: addresses, phone numbers, weekend hours and what to expect on fees." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tag &amp; Title Finder - Find Maryland Tag &amp; Title Agencies Near You" />
+<meta name="twitter:description" content="Find private tag and title agencies in Maryland by city or ZIP: addresses, phone numbers, weekend hours and what to expect on fees." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-muhynp7u-y66xm";
+  var SITEK="";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  function siteTok(){try{return SITEK?localStorage.getItem(SITEK):null;}catch(e){return null;}}
+  var u=new URL(location.href);var found=null;var changed=false;
+  var PINP=true;
+  if(!PINP){try{localStorage.removeItem('lp_pin_'+slug);if(SITEK)localStorage.removeItem(SITEK);}catch(e){}}
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{if(PINP||p!=='pin_access_token'){localStorage.setItem(map[p]+slug,v);if(SITEK&&p==='pin_access_token')localStorage.setItem(SITEK,v);}}catch(e){}if(p==='pin_access_token'){try{sessionStorage.setItem('lp_fresh_'+slug,'1');}catch(e){}}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug)||siteTok();if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug)||siteTok();}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
 (function(){
-var CITIES=[{"name": "Damascus", "url": "maryland/montgomery-county/damascus/", "county": "Montgomery County"}, {"name": "Gaithersburg", "url": "maryland/montgomery-county/gaithersburg/", "county": "Montgomery County"}, {"name": "Germantown", "url": "maryland/montgomery-county/germantown/", "county": "Montgomery County"}, {"name": "Olney", "url": "maryland/montgomery-county/olney/", "county": "Montgomery County"}, {"name": "Rockville", "url": "maryland/montgomery-county/rockville/", "county": "Montgomery County"}, {"name": "Silver Spring", "url": "maryland/montgomery-county/silver-spring/", "county": "Montgomery County"}, {"name": "Wheaton", "url": "maryland/montgomery-county/wheaton/", "county": "Montgomery County"}, {"name": "Baltimore", "url": "maryland/baltimore/baltimore/", "county": "Baltimore City & County"}, {"name": "Catonsville", "url": "maryland/baltimore/catonsville/", "county": "Baltimore City & County"}, {"name": "Cockeysville", "url": "maryland/baltimore/cockeysville/", "county": "Baltimore City & County"}, {"name": "Dundalk", "url": "maryland/baltimore/dundalk/", "county": "Baltimore City & County"}, {"name": "Essex", "url": "maryland/baltimore/essex/", "county": "Baltimore City & County"}, {"name": "Halethorpe", "url": "maryland/baltimore/halethorpe/", "county": "Baltimore City & County"}, {"name": "Nottingham", "url": "maryland/baltimore/nottingham/", "county": "Baltimore City & County"}, {"name": "Owings Mills", "url": "maryland/baltimore/owings-mills/", "county": "Baltimore City & County"}, {"name": "Parkville", "url": "maryland/baltimore/parkville/", "county": "Baltimore City & County"}, {"name": "Pikesville", "url": "maryland/baltimore/pikesville/", "county": "Baltimore City & County"}, {"name": "Timonium", "url": "maryland/baltimore/timonium/", "county": "Baltimore City & County"}, {"name": "Towson", "url": "maryland/baltimore/towson/", "county": "Baltimore City & County"}, {"name": "White Marsh", "url": "maryland/baltimore/white-marsh/", "county": "Baltimore City & County"}, {"name": "Woodlawn", "url": "maryland/baltimore/woodlawn/", "county": "Baltimore City & County"}];
-var form=document.getElementById('cityFinder'),input=document.getElementById('cityInput'),msg=document.getElementById('finderMsg');
-form.addEventListener('submit',function(e){
-  e.preventDefault();
-  var q=input.value.trim().toLowerCase();
-  if(!q)return;
-  var exact=CITIES.find(function(c){return c.name.toLowerCase()===q});
-  var partial=exact||CITIES.find(function(c){return c.name.toLowerCase().indexOf(q)===0})||CITIES.find(function(c){return c.name.toLowerCase().indexOf(q)!==-1});
-  if(partial){window.location.href=partial.url;}
-  else{msg.textContent="We don't have "+input.value.trim()+" yet \u2014 browse Montgomery County or Baltimore below.";msg.style.color='var(--red)';}
-});
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://app.calldirector.ai/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=7400');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
 })();
-</script></body></html>
+</script>
+<script data-payment>
+(function(){
+  var slug='rwv475r';
+  var apiBase='https://app.calldirector.ai';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    var phone=findPhone();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,phone:phone||'',amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var sidP=urlParams.get('session_id');
+      if(sidP){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidP})}).catch(function(){});}catch(e){}}
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script data-cart>
+(function(){
+  var slug='rwv475r';
+  var apiBase='https://app.calldirector.ai';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findCartEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realCart=function(arg){
+    var items, email='', customerName='', successUrl, cancelUrl, currency;
+    if(Array.isArray(arg)){items=arg;}
+    else if(arg&&typeof arg==='object'){
+      items=arg.items;email=arg.email||'';customerName=arg.name||arg.customerName||'';
+      successUrl=arg.successUrl;cancelUrl=arg.cancelUrl;currency=arg.currency;
+    }
+    if(!Array.isArray(items)||items.length===0){alert('No items in cart.');return Promise.reject('no_items');}
+    var cleanItems=[];var totalCents=0;
+    for(var i=0;i<items.length;i++){
+      var it=items[i];if(!it||typeof it!=='object'){alert('Invalid item at position '+i);return Promise.reject('bad_item');}
+      var nm=typeof it.name==='string'?it.name.trim():'';
+      if(!nm){alert('Item '+(i+1)+' is missing a name.');return Promise.reject('no_name');}
+      var amt=typeof it.amountCents==='number'?it.amountCents:(typeof it.amount==='number'?Math.round(it.amount*100):NaN);
+      if(!isFinite(amt)||amt<1){alert('Item "'+nm+'" needs a valid amount in cents.');return Promise.reject('bad_amount');}
+      var qty=(typeof it.quantity==='number'&&it.quantity>0)?Math.floor(it.quantity):1;
+      cleanItems.push({name:nm,description:it.description||'',amountCents:amt,quantity:qty});
+      totalCents+=amt*qty;
+    }
+    if(totalCents<50){alert('Cart total must be at least $0.50');return Promise.reject('total_too_low');}
+    if(!email)email=findCartEmail();
+    if(!customerName)customerName=findCartName();
+    var cartPhone=findCartPhone();
+    if(!email){var p=window.prompt('Enter your email for the receipt:','');if(p&&p.indexOf('@')>-1){email=p.trim();}else{alert('An email address is required to complete checkout.');return Promise.reject('no_email');}}
+    var successBase=window.location.href.split('?')[0];
+    var body={email:email,name:customerName,items:cleanItems,locale:(document.documentElement.lang||navigator.language||'en')};
+    if(currency)body.currency=currency;
+    if(cartPhone)body.phone=cartPhone;
+    body.successUrl=successUrl||(successBase+'?cart=success&email='+encodeURIComponent(email)+'&session_id={CHECKOUT_SESSION_ID}');
+    body.cancelUrl=cancelUrl||(successBase+'?cart=cancelled');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/cart/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process checkout');throw new Error(d.error);}
+    });
+  };
+  try{Object.defineProperty(window,'__processCart',{value:__realCart,writable:false,configurable:false});}catch(e){window.__processCart=__realCart;}
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('cart')==='success'){
+      var sidC=urlParams.get('session_id');
+      if(sidC){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidC})}).catch(function(){});}catch(e){}}
+      if(document.getElementById('payment-success-overlay')||document.getElementById('donation-success-overlay')||document.getElementById('cart-success-overlay'))return;
+      var overlay=document.createElement('div');overlay.id='cart-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||'Thank you for your order.';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Order Confirmed!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-cart-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var cBtn=document.getElementById('lp-cart-success-btn');
+      if(cBtn){cBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="/styles.css">
+</head><body>
+<header class="site"><div class="wrap"><a class="logo" href="/">Tag <span>&amp;</span> Title Finder</a>
+<nav><a href="/maryland/montgomery-county/">Montgomery</a><a href="/maryland/baltimore/">Baltimore</a><a href="/maryland/open-weekends/">Open weekends</a><a href="/maryland/tag-and-title-fees/">Fees</a></nav></div></header>
+<main class="wrap"><section class="hero"><div class="plate"><span class="screw tl"></span><span class="screw tr"></span><span class="screw bl"></span><span class="screw br"></span><span class="st">Maryland</span><span class="num">TAGS FAST</span><span class="sub">44 agencies listed</span><span class="sticker">VALID 2027</span></div>
+<h1>Find a tag &amp; title agency near you</h1><p class="meta" style="font-size:15px;color:var(--slate)">Now covering Maryland: Montgomery County and Baltimore. More states coming.</p>
+<p class="lede">Private tag and title agencies can register your car, transfer a title or issue temporary tags without a trip to an MVA branch. Compare locations and phone numbers here, then call ahead.</p>
+<form class="finder" id="cityFinder"><input list="ttf-cities" id="cityInput" type="text" inputmode="search" placeholder="Enter a city or ZIP code (e.g. Rockville, 20850, Towson)" aria-label="City or ZIP code" autocomplete="off" required><button type="submit">Find agencies</button></form>
+<p class="finder-msg" id="finderMsg" aria-live="polite">Covers Montgomery County and Baltimore City &amp; County so far.</p>
+<datalist id="ttf-cities"><option value="Baltimore"><option value="Catonsville"><option value="Cockeysville"><option value="Dundalk"><option value="Essex"><option value="Halethorpe"><option value="Nottingham"><option value="Owings Mills"><option value="Parkville"><option value="Pikesville"><option value="Timonium"><option value="Towson"><option value="White Marsh"><option value="Woodlawn"><option value="Damascus"><option value="Gaithersburg"><option value="Germantown"><option value="Olney"><option value="Rockville"><option value="Silver Spring"><option value="Wheaton"></datalist>
+<div class="picker"><a class="chip" href="/maryland/baltimore/baltimore/">Baltimore</a><a class="chip" href="/maryland/montgomery-county/gaithersburg/">Gaithersburg</a><a class="chip" href="/maryland/montgomery-county/wheaton/">Wheaton</a><a class="chip" href="/maryland/baltimore/catonsville/">Catonsville</a><a class="chip" href="/maryland/baltimore/essex/">Essex</a><a class="chip" href="/maryland/montgomery-county/rockville/">Rockville</a><a class="chip" href="/maryland/montgomery-county/silver-spring/">Silver Spring</a><a class="chip" href="/maryland/baltimore/towson/">Towson</a><a class="chip" href="/maryland/baltimore/parkville/">Parkville</a><a class="chip" href="/maryland/montgomery-county/olney/">Olney</a></div></section>
+<h2>Browse by county</h2><div class="grid2"><a href="/maryland/montgomery-county/"><strong>Montgomery County</strong><small>15 agencies</small></a>
+<a href="/maryland/baltimore/"><strong>Baltimore City &amp; County</strong><small>29 agencies</small></a></div>
+<h2>Need one soon?</h2><div class="picker"><a class="chip" href="/maryland/open-weekends/">Open this weekend</a><a class="chip" href="/maryland/tag-and-title-fees/">What it costs</a></div>
+<h2>What these agencies do</h2><p>They're private businesses authorized to process MVA transactions. Depending on the agency, that can include new registrations, renewals, title transfers, duplicate titles, temporary tags and plate returns. You pay the state's charges plus the agency's own service fee.</p></main>
+<footer><div class="wrap"><p>Tag &amp; Title Finder is an independent directory. We are not the Maryland MVA, are not a government website, and are not affiliated with any agency listed. Agencies set their own service fees; always confirm hours and prices by phone.</p>
+<p><a href="/maryland/list-your-agency/">Add or update a listing</a> &nbsp; <a href="/maryland/list-your-agency/#report">Report incorrect information</a> &nbsp; <a href="/about/">About</a> &nbsp; <a href="/privacy/">Privacy</a></p>
+<p>Listing details gathered from public sources, September 2026. We're calling agencies to confirm them.</p></div></footer>  <script src="script.js"></script>
+</body></html>
