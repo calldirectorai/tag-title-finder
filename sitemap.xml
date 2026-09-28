@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/list-your-agency/</loc>
+    <lastmod>2026-09-28T00:44:32.183Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/privacy/</loc>
     <lastmod>2026-09-28T00:35:49.168Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -43,11 +48,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/montgomery-county/</loc>
     <lastmod>2026-09-28T00:35:08.107Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/list-your-agency/</loc>
-    <lastmod>2026-09-28T00:35:02.996Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
