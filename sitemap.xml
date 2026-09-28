@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/dundalk/</loc>
+    <lastmod>2026-09-28T18:54:00.224Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/cockeysville/</loc>
     <lastmod>2026-09-28T18:53:50.705Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,11 +73,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/essex/</loc>
     <lastmod>2026-09-28T18:49:17.615Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/dundalk/</loc>
-    <lastmod>2026-09-28T18:48:50.210Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
