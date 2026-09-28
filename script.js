@@ -1,5 +1,6 @@
 (function(){
 var CITIES=[["Baltimore","/maryland/baltimore/baltimore/"],["Catonsville","/maryland/baltimore/catonsville/"],["Cockeysville","/maryland/baltimore/cockeysville/"],["Dundalk","/maryland/baltimore/dundalk/"],["Essex","/maryland/baltimore/essex/"],["Halethorpe","/maryland/baltimore/halethorpe/"],["Nottingham","/maryland/baltimore/nottingham/"],["Owings Mills","/maryland/baltimore/owings-mills/"],["Parkville","/maryland/baltimore/parkville/"],["Pikesville","/maryland/baltimore/pikesville/"],["Timonium","/maryland/baltimore/timonium/"],["Towson","/maryland/baltimore/towson/"],["White Marsh","/maryland/baltimore/white-marsh/"],["Woodlawn","/maryland/baltimore/woodlawn/"],["Damascus","/maryland/montgomery-county/damascus/"],["Gaithersburg","/maryland/montgomery-county/gaithersburg/"],["Germantown","/maryland/montgomery-county/germantown/"],["Olney","/maryland/montgomery-county/olney/"],["Rockville","/maryland/montgomery-county/rockville/"],["Silver Spring","/maryland/montgomery-county/silver-spring/"],["Wheaton","/maryland/montgomery-county/wheaton/"]];
+var TASKS=[[/temp|30.?day/,"/maryland/temporary-tags/"],[/lost|duplicate|replace.*title|damaged/,"/maryland/duplicate-title/"],[/return|turn in|cancel/,"/maryland/plate-return/"],[/renew|sticker|expired/,"/maryland/registration-renewal/"],[/moved|moving|new resident|new to|out of state|out-of-state/,"/maryland/new-to-maryland/"],[/transfer|bought|private sale|title/,"/maryland/title-transfer/"],[/weekend|saturday|sunday/,"/maryland/open-weekends/"],[/fee|cost|price/,"/maryland/tag-and-title-fees/"]];
 var M="/maryland/montgomery-county/",B="/maryland/baltimore/";
 var Z={"20877":"gaithersburg","20878":"gaithersburg","20879":"gaithersburg","20882":"gaithersburg","20886":"gaithersburg","20850":"rockville","20851":"rockville","20852":"rockville","20853":"rockville","20902":"wheaton","20901":"silver-spring","20903":"silver-spring","20904":"silver-spring","20905":"silver-spring","20906":"silver-spring","20910":"silver-spring","20832":"olney","20874":"germantown","20876":"germantown","20872":"damascus"};
 var ZB={"21227":"halethorpe","21244":"woodlawn","21207":"woodlawn","21228":"catonsville","21221":"essex","21204":"towson","21286":"towson","21214":"parkville","21234":"parkville","21030":"cockeysville","21117":"owings-mills","21085":"white-marsh","21162":"white-marsh","21222":"dundalk","21208":"pikesville","21236":"nottingham","21093":"timonium"};
@@ -23,7 +24,8 @@ form.addEventListener('submit',function(e){
   for(i=0;i<CITIES.length&&!c;i++)if(CITIES[i][0].toLowerCase().indexOf(q)===0)c=CITIES[i];
   for(i=0;i<CITIES.length&&!c;i++)if(CITIES[i][0].toLowerCase().indexOf(q)!==-1)c=CITIES[i];
   if(c){window.location.href=c[1];return;}
+  for(i=0;i<TASKS.length;i++)if(TASKS[i][0].test(q)){window.location.href=TASKS[i][1];return;}
   var safe=raw.replace(/[<>&"']/g,'');
-  say("We don't have "+safe+" yet. Try a ZIP code, or browse "+both+"."+tell);
+  say("We don't have "+safe+" yet. Try a ZIP code, pick what you need done above, or browse "+both+"."+tell);
 });
 })();
