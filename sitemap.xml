@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/plate-return/</loc>
+    <lastmod>2026-09-28T19:44:20.737Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/title-transfer/</loc>
     <lastmod>2026-09-28T19:44:12.067Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,11 +28,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/duplicate-title/</loc>
     <lastmod>2026-09-28T19:41:07.311Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/plate-return/</loc>
-    <lastmod>2026-09-28T19:40:34.653Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
