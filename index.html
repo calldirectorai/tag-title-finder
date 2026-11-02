@@ -4,7 +4,7 @@
 
 <link rel="canonical" href="https://tagtitlefinder.com/">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Saira+Condensed:wght@600;700&display=swap" rel="stylesheet">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHM2JL8SER"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHM2JL8SER"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-FHM2JL8SER');document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a)return;var h=a.getAttribute('href')||'',l=a.getAttribute('data-listing')||document.body.getAttribute('data-listing')||'',p={listing:l,page_type:document.body.getAttribute('data-page')||''};if(h.indexOf('tel:')===0)gtag('event','call_click',p);else if(h.indexOf('google.com/maps')>-1)gtag('event','directions_click',p);else if(h.indexOf('#request')>-1)gtag('event','request_click',p);else if(h.indexOf('mailto:')===0)gtag('event','email_click',p);},true);</script>
 <!-- SEO Meta Tags -->
 <title>Tag &amp; Title Finder - Find Maryland Tag &amp; Title Agencies Near You</title>
 <meta name="description" content="Find Maryland tag and title agencies by city, ZIP or what you need done: temporary tags, title transfers, plate returns, duplicate titles and more." />
@@ -216,7 +216,7 @@
       overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
       function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
       var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
-      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;background:color-mix(in srgb,'+successBtnColor+' 12%,white);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="'+successBtnColor+'" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
       document.body.appendChild(overlay);
       var pBtn=document.getElementById('lp-pay-success-btn');
       if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
@@ -293,14 +293,15 @@
       overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
       function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
       var subTxt=successSubtext||'Thank you for your order.';
-      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Order Confirmed!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-cart-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;background:color-mix(in srgb,'+successBtnColor+' 12%,white);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="'+successBtnColor+'" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Order Confirmed!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-cart-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
       document.body.appendChild(overlay);
       var cBtn=document.getElementById('lp-cart-success-btn');
       if(cBtn){cBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
     }
   });
 })();
-</script>  <link rel="stylesheet" href="/styles.css">
+</script>
+<link rel="stylesheet" href="/styles.css">
 </head><body data-page="home" data-listing="">
 <header class="site"><div class="wrap"><a class="logo" href="/">Tag <span>&amp;</span> Title Finder</a>
 <nav><a href="/maryland/montgomery-county/">Montgomery</a><a href="/maryland/baltimore/">Baltimore</a><a href="/maryland/open-weekends/">Open weekends</a><a href="/maryland/tag-and-title-fees/">Fees</a></nav></div></header>
@@ -320,5 +321,39 @@
 <h2>What these agencies do</h2><p>They're private businesses authorized to process MVA transactions. Depending on the agency, that can include new registrations, renewals, title transfers, duplicate titles, temporary tags and plate returns. You pay the state's charges plus the agency's own service fee.</p></main>
 <footer><div class="wrap"><p>Tag &amp; Title Finder is an independent directory. We are not the Maryland MVA and are not a government website. Any listed agency that is a client of CallDirector AI, which runs this site, is labeled as one. Agencies set their own service fees; always confirm hours and prices by phone.</p>
 <p><a href="/maryland/list-your-agency/">Add or update a listing</a> &nbsp; <a href="/maryland/list-your-agency/#report">Report incorrect information</a> &nbsp; <a href="/about/">About</a> &nbsp; <a href="/privacy/">Privacy</a></p>
-<p>Listing details gathered from public sources, September 2026. We're calling agencies to confirm them.</p></div></footer>  <script src="script.js"></script>
-</body></html>
+<p>Listing details gathered from public sources, September 2026. We're calling agencies to confirm them.</p></div></footer><script>
+(function(){
+var CITIES=[["Baltimore","/maryland/baltimore/baltimore/"],["Catonsville","/maryland/baltimore/catonsville/"],["Cockeysville","/maryland/baltimore/cockeysville/"],["Dundalk","/maryland/baltimore/dundalk/"],["Essex","/maryland/baltimore/essex/"],["Halethorpe","/maryland/baltimore/halethorpe/"],["Nottingham","/maryland/baltimore/nottingham/"],["Owings Mills","/maryland/baltimore/owings-mills/"],["Parkville","/maryland/baltimore/parkville/"],["Pikesville","/maryland/baltimore/pikesville/"],["Timonium","/maryland/baltimore/timonium/"],["Towson","/maryland/baltimore/towson/"],["White Marsh","/maryland/baltimore/white-marsh/"],["Woodlawn","/maryland/baltimore/woodlawn/"],["Damascus","/maryland/montgomery-county/damascus/"],["Gaithersburg","/maryland/montgomery-county/gaithersburg/"],["Germantown","/maryland/montgomery-county/germantown/"],["Olney","/maryland/montgomery-county/olney/"],["Rockville","/maryland/montgomery-county/rockville/"],["Silver Spring","/maryland/montgomery-county/silver-spring/"],["Wheaton","/maryland/montgomery-county/wheaton/"]];
+var TASKS=[[/temp|30.?day/,"/maryland/temporary-tags/"],[/lost|duplicate|replace.*title|damaged/,"/maryland/duplicate-title/"],[/return|turn in|cancel/,"/maryland/plate-return/"],[/renew|sticker|expired/,"/maryland/registration-renewal/"],[/moved|moving|new resident|new to|out of state|out-of-state/,"/maryland/new-to-maryland/"],[/transfer|bought|private sale|title/,"/maryland/title-transfer/"],[/weekend|saturday|sunday/,"/maryland/open-weekends/"],[/fee|cost|price/,"/maryland/tag-and-title-fees/"]];
+var M="/maryland/montgomery-county/",B="/maryland/baltimore/";
+var Z={"20877":"gaithersburg","20878":"gaithersburg","20879":"gaithersburg","20882":"gaithersburg","20886":"gaithersburg","20850":"rockville","20851":"rockville","20852":"rockville","20853":"rockville","20902":"wheaton","20901":"silver-spring","20903":"silver-spring","20904":"silver-spring","20905":"silver-spring","20906":"silver-spring","20910":"silver-spring","20832":"olney","20874":"germantown","20876":"germantown","20872":"damascus"};
+var ZB={"21227":"halethorpe","21244":"woodlawn","21207":"woodlawn","21228":"catonsville","21221":"essex","21204":"towson","21286":"towson","21214":"parkville","21234":"parkville","21030":"cockeysville","21117":"owings-mills","21085":"white-marsh","21162":"white-marsh","21222":"dundalk","21208":"pikesville","21236":"nottingham","21093":"timonium"};
+var BC=["21201","21202","21205","21206","21209","21210","21211","21212","21213","21215","21216","21217","21218","21223","21224","21225","21226","21229","21230","21231"];
+function zipUrl(q){if(Z[q])return M+Z[q]+"/";if(ZB[q])return B+ZB[q]+"/";if(BC.indexOf(q)!==-1)return B+"baltimore/";return null;}
+function track(q,result,dest){try{var t=q.replace(/\S+@\S+/g,'').replace(/\d{6,}|\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}/g,'').replace(/[^a-z0-9 \-']/gi,'').trim().slice(0,40);if(window.gtag)gtag('event','site_search',{search_term:t,search_result:result,destination:dest||''});}catch(e){}}
+var form=document.getElementById('cityFinder'),input=document.getElementById('cityInput'),msg=document.getElementById('finderMsg');
+function say(html){msg.innerHTML=html;msg.style.color='var(--ink)';}
+function go(q,result,u){track(q,result,u);setTimeout(function(){window.location.href=u;},150);}
+var both="<a href='"+M+"'>Montgomery County</a> or <a href='"+B+"'>Baltimore City &amp; County</a>",tell=" Know an agency there? <a href='/maryland/list-your-agency/'>Tell us</a>.";
+form.addEventListener('submit',function(e){
+  e.preventDefault();
+  var raw=input.value.trim(),q=raw.toLowerCase();if(!q)return;
+  if(/^\d{5}$/.test(q)){
+    var u=zipUrl(q);if(u){go(q,'zip',u);return;}
+    var p=q.slice(0,3);track(q,'zip_not_covered');
+    if(p==='208'||p==='209'){say("No agencies listed in "+q+" yet. The closest area we cover: <a href='"+M+"'>Montgomery County</a>."+tell);return;}
+    if(p==='210'||p==='211'||p==='212'){say("No agencies listed in "+q+" yet. The closest area we cover: <a href='"+B+"'>Baltimore City &amp; County</a>."+tell);return;}
+    say("We don't cover "+q+" yet. Browse "+both+"."+tell);return;
+  }
+  var c=null,i;
+  for(i=0;i<CITIES.length&&!c;i++)if(CITIES[i][0].toLowerCase()===q)c=CITIES[i];
+  for(i=0;i<CITIES.length&&!c;i++)if(CITIES[i][0].toLowerCase().indexOf(q)===0)c=CITIES[i];
+  for(i=0;i<CITIES.length&&!c;i++)if(CITIES[i][0].toLowerCase().indexOf(q)!==-1)c=CITIES[i];
+  if(c){go(q,'city',c[1]);return;}
+  for(i=0;i<TASKS.length;i++)if(TASKS[i][0].test(q)){go(q,'task',TASKS[i][1]);return;}
+  track(q,'no_match');
+  var safe=raw.replace(/[<>&"']/g,'');
+  say("We don't have "+safe+" yet. Try a ZIP code, pick what you need done above, or browse "+both+"."+tell);
+});
+})();
+</script></body></html>
