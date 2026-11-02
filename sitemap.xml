@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/white-marsh/</loc>
+    <lastmod>2026-11-02T19:37:36.967Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/towson/</loc>
     <lastmod>2026-11-02T19:37:29.060Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -348,11 +353,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/woodlawn/</loc>
     <lastmod>2026-09-28T18:55:34.360Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/white-marsh/</loc>
-    <lastmod>2026-09-28T18:55:25.308Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
