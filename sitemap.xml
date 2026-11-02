@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/</loc>
+    <lastmod>2026-11-02T19:35:59.846Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/agency/wheaton-tag-title/</loc>
     <lastmod>2026-11-02T19:35:52.042Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -348,11 +353,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/baltimore/</loc>
     <lastmod>2026-09-28T18:53:25.784Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/</loc>
-    <lastmod>2026-09-28T18:53:14.828Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
