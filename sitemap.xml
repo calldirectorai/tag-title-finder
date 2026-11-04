@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/montgomery-county/</loc>
+    <lastmod>2026-11-04T19:57:40.465Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
+    <lastmod>2026-11-04T19:57:31.455Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/montgomery-county/clarksburg/</loc>
     <lastmod>2026-11-04T19:56:12.612Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -71,11 +81,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
-    <lastmod>2026-11-02T19:39:16.228Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://tagtitlefinder.com/maryland/new-to-maryland/</loc>
     <lastmod>2026-11-02T19:39:08.416Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,11 +113,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/montgomery-county/damascus/</loc>
     <lastmod>2026-11-02T19:38:14.112Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/montgomery-county/</loc>
-    <lastmod>2026-11-02T19:38:06.745Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
