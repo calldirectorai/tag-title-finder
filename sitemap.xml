@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
+    <lastmod>2026-11-04T20:43:31.224Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/montgomery-county/</loc>
     <lastmod>2026-11-04T20:43:23.415Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +18,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/agency/all-wheels-tag-title-services/</loc>
     <lastmod>2026-11-04T20:43:06.701Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/open-weekends/</loc>
-    <lastmod>2026-11-04T20:42:58.132Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
