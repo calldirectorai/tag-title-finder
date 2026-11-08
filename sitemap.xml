@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/</loc>
+    <lastmod>2026-11-08T05:07:01.741Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://tagtitlefinder.com/maryland/baltimore/baltimore/</loc>
+    <lastmod>2026-11-08T05:06:51.873Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tagtitlefinder.com/maryland/agency/three-brothers-tag-title/</loc>
     <lastmod>2026-11-08T05:03:06.840Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -258,16 +268,6 @@
   <url>
     <loc>https://tagtitlefinder.com/maryland/baltimore/catonsville/</loc>
     <lastmod>2026-11-02T19:36:14.104Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/baltimore/</loc>
-    <lastmod>2026-11-02T19:36:06.736Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tagtitlefinder.com/maryland/baltimore/</loc>
-    <lastmod>2026-11-02T19:35:59.846Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
